@@ -4,6 +4,7 @@ This is a test for senior developers. The goal is to evaluate the candidate's sk
 
 ## General
 You have been provided with a simple nodejs project - Crypto currency transaction processor.  
+To run the code, run `npm i` and then `npm run dev`.  
 The application flow supposed to be as the following:
 1. The user sends a request to `POST http://localhost:8085/api/create-transaction` with the following payload: 
 ```json
