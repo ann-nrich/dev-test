@@ -47,7 +47,7 @@ The application uses sqlite as a database, continue using it. no need to change 
 You don't need to install any other packages, you can use the packages that are already installed.
 
 # Deliverables
-1. It will be great (and not must) if the code will be functioning as expected after the refactor.  
+1. It will be great (and not must) if the code will be functioning after the refactory.  
 If not, please provide clean code that fix the problems as described above.
 2. A list of other potential problems that you have detected in the code and were not implemented.
 
