@@ -81,13 +81,7 @@ The application uses two main database tables: `coin` and `userTransaction`. Bel
 ### 2. **`userTransaction` Table**
 - **Description:** Stores user transaction data related to cryptocurrency purchases for a given coinId.
 
----
-
-### Table Relationships:
-
-- **`userTransaction.coinId`** references **`coin.id`**. Each transaction is associated with a specific coin.
-
-### 3. **Transaction Watcher (Background Task)**
+## **Transaction Watcher (Background Task)**
 
 - **Description:** This is a background function (`transactionWatcherIfUsdValueBelowOpenRate`) that periodically checks if the current USD price of the coin in a transaction has dropped below the purchase price and automatically closes the transaction.
 
@@ -111,7 +105,7 @@ Your primary objective is to identify and resolve all the issues in the provided
    - Ensure the refactored code adheres to best practices and industry standards.
 
 3. **Enable Transaction Watcher:**
-   - The `transactionWatcherIfUsdValueBelowOpenRate` function is currently disabled. Once you have addressed the issues, found in its code, and ensure this function operates correctly.
+   - The `transactionWatcherIfUsdValueBelowOpenRate` function is currently disabled. Once you have enabled id, address the issues, found in its code, and ensure this function operates correctly.
 
 ### Requirements
 
@@ -161,8 +155,6 @@ Your submission will be evaluated based on the following:
 - **Thorough Analysis:** Carefully review each part of the code to uncover hidden pitfalls and bugs.
 - **Step-by-Step Approach:** Tackle one issue at a time to maintain focus and ensure comprehensive fixes.
 - **Think Production-Ready:** Consider how the application would perform in a real-world production environment.
-- **Testing:** Test your changes to verify that they work as intended and do not introduce new issues.
-- **Documentation:** Comment your code where necessary to explain complex logic or important decisions.
 - **Create a List of Identified Issues:** As you analyze the code, create a list of all identified issues, including those you plan to address and any additional potential problems. You can submit this list alongside the refactored code for review.
 
 Good luck! 🤗🍀
